@@ -1,0 +1,5 @@
+﻿{
+  "Data": {
+    "ConnectionString": "Server=.;Database=AtlantaFun;Integrated Security=true;MultipleActiveResultSets=true;"
+  }	
+}
