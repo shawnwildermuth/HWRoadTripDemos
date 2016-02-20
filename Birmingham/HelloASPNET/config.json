@@ -1,0 +1,5 @@
+﻿{
+  "Data": {
+    "TheConnectionString": "Server=(localdb)\\ProjectsV12;Database=BirminghamASPNET;Integrated Security=true;MultipleActiveResultSets=true;"
+  }	
+}
