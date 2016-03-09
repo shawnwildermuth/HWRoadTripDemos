@@ -1,0 +1,15 @@
+﻿<html>
+<head>
+  <title>@ViewBag.Title</title>
+  <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+  <h3>@ViewBag.Title</h3>
+  <environment names="Development,Testing">
+    <script src="jquery.js"></script>
+  </environment>
+  <environment names="Production">
+    <script src="jquery.min.js"></script>
+  </environment>
+</body>
+</html>
