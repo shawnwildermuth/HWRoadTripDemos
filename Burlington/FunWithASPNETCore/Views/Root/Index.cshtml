@@ -1,0 +1,18 @@
+@{
+  ViewBag.Title = "Hello World!!!!";
+}
+<html>
+<head>
+  <title>@ViewBag.Title</title>
+  <link href="~/site.css" rel="stylesheet" />
+</head>
+<body>
+  <h3>@ViewBag.Title</h3>
+</body>
+<environment names="Development">
+  <script src="~/lib/jQuery/dist/jquery.js"></script>
+</environment>
+<environment names="Staging,Production">
+  <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+</environment>
+</html>
