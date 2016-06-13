@@ -1,0 +1,19 @@
+@{
+  ViewBag.Title = "Hello From ASP.NET Core";
+}
+<html>
+<head>
+  <title>@ViewBag.Title</title>
+  <link href="~/site.css" rel="stylesheet" />
+</head>
+<body>
+  <h3>@ViewBag.Title</h3>
+  <environment names="Development,Testing">
+    // Full Debug
+  </environment>
+  <environment names="Production">
+    // Bundled
+
+  </environment>
+</body>
+</html>
